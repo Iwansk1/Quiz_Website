@@ -1,0 +1,50 @@
+:root{
+    --text-color: white;
+}
+
+body{
+    background-color: #222;
+}
+h1{
+    font-size: xxx-large;
+}
+h2{
+    color: var(--text-color);
+}
+header{
+    color: var(--text-color);
+    text-align: center;
+}
+.quiz{
+    margin: 10px;
+}
+.question {
+    font-size: 15px;
+    padding: 15px;
+    border: white solid 1px;
+    margin-bottom: 20px;
+    display: block;
+    color: white;
+}
+.js-input{
+    margin-bottom: 15px;
+    padding: 1vw;
+}
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    display: table;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: lightgrey;
+}
+.categories{
+    margin-bottom: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
